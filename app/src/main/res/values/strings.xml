@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PBL_Project</string>
+    <string name="description">TODO</string>
+
+    <string name="start">▶ Start</string>
+    <string name="copyright">Android game from Our Team</string>
+
+    <string name="easy">🐰 Easy</string>
+    <string name="modearate">🦊 Moderate</string>
+    <string name="hard">☠ Hard</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="artGallery">Art Gallery</string>
+    <string name="select">Select....</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="instruction1">🖼️ Select Image Source....</string>
+    <string name="instruction2">🖼️ Confirm Image..</string>
+    <string name="instruction3">🖼️ Select Difficulty</string>
+
+    <string name="x">X</string>
+    <string name="setting1">Volume</string>
+    <string name="setting2">Audio</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">UnMute</string>
+    <string name="background_music_label">Background Music</string>
+    <string name="default1">Default</string>
+    <string name="browse">...</string>
+
+    <string name="time">00:00</string>
+
+    <string name="home_name">🏠 Home</string>
+    <string name="to_puzzle">Puzzle Of 3x3</string>
+    <string name="times_up">⏰ Time\'s Up\nTumse Na Ho payega !!\n 😁</string>
+    <string name="try_again">🔃 \nTry Again</string>
+    <string name="watch_video">📽️ \n`+1 min.\nWatch Video</string>
+    <string name="ad">Ad</string>
+    <string name="win">!! 🎉🎊 You Win 🎊🎉 !!</string>
+    <string name="ad_showing">Ad Showing.....</string>
+    <string name="preview">Preview</string>
+    <string name="art_gallery">Art Gallery</string>
+    <string name="song">Song</string>
+    <string name="aspire_song">Aspire Song</string>
+    <string name="enimies_song">Enimies Song</string>
+    <string name="spark_song">Spark Song</string>
+
+    <!--    -->
+</resources>

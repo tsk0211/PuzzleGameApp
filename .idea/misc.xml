@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/button_type_1.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/popup_background.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/progress_bar_normal.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/progress_bar_panic.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/progress_bar_stress.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/thumb.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/timer_top.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/drawable/track.xml" value="0.213" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_ad_page.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_art_gallery.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_confirm_image.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_on_start.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_puzzle3x3.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_puzzle5x5.xml" value="0.2359375" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_puzzle7x7.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_select_difficulty.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_song_change.xml" value="0.2359375" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/activity_starting.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/preview.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/settings.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/song_change.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/times_up_popup.xml" value="0.25" />
+        <entry key="..\:/Android_Studio/PBL_Project2/app/src/main/res/layout/win_pop.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

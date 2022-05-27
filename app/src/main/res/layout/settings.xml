@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="@drawable/start_btn_background"
+    >
+
+    <TextView
+        android:id="@+id/setting1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView android:id="@+id/setting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/setting1"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/audioLevel"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting1" />
+
+    <SeekBar android:id="@+id/audioLevel"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scrollbarSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/setting2"
+        app:layout_constraintTop_toBottomOf="@+id/setting1"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView android:id="@+id/audioLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting2"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="63dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting2"
+        app:layout_constraintEnd_toStartOf="@+id/mute_or_not"
+        />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/mute_or_not"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/mute"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textOff="@string/mute"
+        android:textOn="@string/unmute"
+        android:textSize="15sp"
+        android:thumb="@drawable/thumb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/audioLabel"
+        app:layout_constraintTop_toBottomOf="@+id/audioLevel"
+        app:track="@drawable/track" />
+
+    <TextView
+        android:id="@+id/musicBackgroundLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/background_music_label"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mute_or_not" />
+
+    <TextView android:id="@+id/musicBackgroundName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/default1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/browseBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicBackgroundLabel"
+        />
+
+    <Button android:id="@+id/browseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/browse"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/start_btn_background"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/musicBackgroundName"
+        app:layout_constraintTop_toBottomOf="@+id/musicBackgroundLabel" />
+
+    <TextView android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/x"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@drawable/close_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preview"
+        android:textColor="@color/name_col"
+        android:background="@drawable/start_btn_background"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/browseBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
